@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: #B5C0BF;
 }
 header{
     display: flex;
@@ -45,13 +49,17 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
 .hero_section{
     display: flex;
-    gap:10px;
+    gap:20px;
     width: 100%;
+    height: 100%;
     justify-content: center;
     margin: 5rem;
+    align-items: center;
     font-family: "Montserrat";
 }
 .hero_info h1{
@@ -87,15 +95,87 @@ main {
 .hero_bottom a:hover{
     background-color: #084641;
 }
-.hero_img{
-    border-radius: 15px;
-    margin-top: 30px;
-}
+
 .secundari_section{
-    width: 60%; 
+    width: 55%; 
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     color: #084641;
     font-family: "Montserrat";
     
 }
+
+.hero_card{
+    display: flex;
+    margin-top: 3rem;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    font-family: "Montserrat";
+    color: #084641;
+    text-align: justify;
+}
+.img_card{
+    height: 300px;
+    width: 400px;
+}
+.card_1{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+.card_1_title h1{
+    font-size: 1.8rem;
+}
+.card_1_title h1, p{
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #B5C0BF;
+    margin-top: 5rem;
+}
+.Social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.contacto{
+    color: #084641;
+    font-family: "Montserrat";
+}
+.contacto h1{
+    font-size: 40px;
+    margin: 40px;
+}
+.contacto h3{
+    font-size: 30px;
+    margin: 70px;
+}
+.contacto p{
+    margin-left: 60px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contacto_img img{
+    width: 400px;
+    height: 400px;
+}
+.derechos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 5rem;
+    color: #084641;
+    font-size: 25px;
+    font-family: "Montserrat";
+}
+
+
